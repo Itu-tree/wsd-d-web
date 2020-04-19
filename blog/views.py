@@ -35,7 +35,7 @@ def read_vec60(request):
     
         #set BueatifulSoup
         soup = BeautifulSoup(html, "html.parser")
-        atags=soup.find_all("a", attrs={"class", "u-link-no-underline"})
+        atags=soup.find_all("a", attrs={"class", "LgtmArticleList__ArticleTitle-y1h1e7-9 gwUuZt"})
         url_title_id_list = list()
         user_article_ids = list()
         for atag in atags:
@@ -123,7 +123,7 @@ def read_vec50(request):
     
         #set BueatifulSoup
         soup = BeautifulSoup(html, "html.parser")
-        atags=soup.find_all("a", attrs={"class", "u-link-no-underline"})
+        atags=soup.find_all("a", attrs={"class", "LgtmArticleList__ArticleTitle-y1h1e7-9 gwUuZt"})
         url_title_id_list = list()
         user_article_ids = list()
         for atag in atags:
